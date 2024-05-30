@@ -1,0 +1,144 @@
+/* style.css */ /* Describes the purpose of the stylesheet */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00a4ff45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #0085ff42;
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.chat-container {
+    margin-bottom: 20px;
+}
+
+.online-users,
+.messages {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.online-users ul,
+.messages ul {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #caccff;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #7fc0ff54;
+}
+
+form {
+    display: ruby-text;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    flex: 1;
+    margin-right: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 85%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.logout-btn:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    color: #555;
+}
+
+.login-form {
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.login-form input[type="text"] {
+    display: block;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login-form button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
